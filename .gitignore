@@ -158,3 +158,10 @@ ENV/
 
 # Rope project settings
 .ropeproject
+.idea/encodings.xml
+.idea/fluent-python.iml
+.idea/inspectionProfiles/
+.idea/markdown-navigator.xml
+.idea/markdown-navigator/
+.idea/misc.xml
+.idea/modules.xml
