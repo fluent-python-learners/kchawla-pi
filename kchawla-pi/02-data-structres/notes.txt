@@ -1,0 +1,21 @@
+Python stores all numbers as floats and converts them as needed.
+array.array is a great way to store numerical data
+
+pickle is also super efficient but can handle all data types.
+    Pickling (serialization, marshalling, flattenning) is converting an object into a bytestream and unpickling is
+    constructing the object structure from the bytestream.
+    pickle is not good for highly nested objects, it has a limit to how much it can nest.
+    Then it fails to pickle correctly. Atleast not json pickle.
+    5-6 hierarchies is pushing it.
+marshal is similar to pickle module, but thats used for pyc files. Not a good way to store persistent data.
+    use pickle or shelve for that. Marshal is hardware arch indeoendent.
+shelve is a persistent dict like obj, which unlike dbm can store any kind of obj in value.
+    maybe one can do an in memory db using.
+    can not do concurrent read and write.
+
+with statement.
+
+A view is a db table frozen in time in a rdbms.
+
+The append and popleft operations are atomic, so deque is safe to use as a LIFO queue in multithreaded applications without the need for using locks.
+
